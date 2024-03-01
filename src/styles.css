@@ -1,0 +1,59 @@
+
+/* For header component styling */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color:#ffffff;
+    --text-color-white:#ffffff;
+    --black-color:#000;
+    --icon-color:#8F191F;
+    --font-size-small:14px;
+    --font-size-medium:16px;
+    --text-decoration-color: var(--black-color);
+}
+header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:0px 50px;
+    justify-content: space-between;
+  
+}
+.header-logo{
+width:250px;
+height:35px;
+}
+.header-last-actions{
+    width:40%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: var(--font-size-small);
+    
+}
+
+.header-app-actns{
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-app-actns a{
+     text-decoration: none;
+     color:var(--black-color);
+}
+.header-app-captaliz{
+    display: flex;
+}
+
+.important-info{
+    font-size: var(--font-size-small);
+    background-color: var(--black-color);
+    padding:0px 30px;
+}
+.important-info a{
+    color:var(--text-color-white);
+    
+}
